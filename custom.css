@@ -19,8 +19,22 @@ background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
   -webkit-animation: hue 20s infinite linear;
   margin-bottom:10px;
 }
+.site__border {
+  color: #fd5626;
+background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+ /*-webkit-background-clip: text;
+/*  -webkit-text-fill-color: transparent;  */
+  -webkit-animation: hue 20s infinite linear;
+  margin-bottom:10px;
+}
+
 .site__header {
   -webkit-animation: bounceInUp 1s;
+}
+.site__headerbt { color: #fd5626;
+
+
+  -webkit-animation:hue 20s infinite linear;
 }
 
 .site__content {
@@ -47,31 +61,36 @@ background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
   padding: .75rem;
   margin: .375rem;
 
-  background-color: transparent;
-  border-radius: 4px;
+  /*background-color:-webkit-linear-gradient(92deg,#f35626,#feab3a);*/
+  border-radius: 20px;
 }
 
   .butt:focus, .input:focus {
     outline: none;
+    border-radius: 20px;
   }
 
-.butt {
+.butt{
+  border-radius: 4px;
   border: 2px solid #f35626;
   line-height: 1.375;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
+/*  background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);*/
+   -webkit-background-clip: text;
 
   font-weight: 700;
 
   color: #f35626;
 
   cursor: pointer;
-  -webkit-animation: hue 60s infinite linear;
+  -webkit-animation: hue 20s infinite linear;
 }
 
   .butt--primary {
     background-color: #f35626;
     color: #fff;
+
   }
 
 .input {
