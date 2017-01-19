@@ -11,6 +11,7 @@ body{
   text-align: center;
 
 }
+a{display: inline-block;}
 .site__title {
   color: #fd5626;
 background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
@@ -77,16 +78,18 @@ background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
   padding-left: 0rem;
   padding-right: 0rem;
 /*  background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);*/
-   -webkit-background-clip: text;
+
 
   font-weight: 700;
 
-  color: #f35626;
 
-  cursor: pointer;
+
   -webkit-animation: hue 20s infinite linear;
 }
-
+.buttnew{border-radius: 4px;
+border: 2px solid #f35626;
+  -webkit-animation: hue 40s infinite linear;
+}
   .butt--primary {
     background-color: #f35626;
     color: #fff;
