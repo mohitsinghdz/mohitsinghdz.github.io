@@ -5,14 +5,31 @@
 }
 
 .crop {
- height: 300px;
- width: 400px;
+ height: 200px;
+ width: 200px;
  overflow: hidden;
 }
 .crop img {
  height: auto;
- width: 400px;
+ width: 300px;
 }
-h1{
-  font-size:60px;
+.bigfont{
+  font-size:100px;
+  font-family: sans-serif;
+}
+.pol{
+    position: relative;
+    float: none;
+    width:  387px;
+    display:inline-block;
+    height: 385px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
+}
+body {
+    background-image: url('wall.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
