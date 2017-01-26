@@ -19,7 +19,7 @@ body {
   padding:0;
   font-size:0; /* bitches remember to change it back to normal font size if have captions */
   list-style:none;
-  background-color:#000;
+  background-color: rgba(0,0,0,0); 
 }
 #rig li {
   display: inline-block;
@@ -137,6 +137,12 @@ body {
   filter:alpha(opacity=0);
   transform:translateY(-20px);/* sending font backward */
   transition:all .7s;
+}
+.largeheader{
+  font-size: 30px;
+}
+.smallheader{
+  font-size: 22px;
 }
 .rig-text-logo-download{
   display:block;
