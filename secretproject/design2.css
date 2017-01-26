@@ -9,7 +9,10 @@ body {
   font-size:100px;
   font-family:'Raleway';
 }
+.glyphicon {
+    font-size: 80px;
 
+}
 #rig {
   max-width:100%;
   margin:0 auto; /*center aligned*/
@@ -72,32 +75,109 @@ body {
 }
 
 /* If have captions */
-.rig-text {
+.rig-text-artist{
   display:block;
   padding:0 60px;
   box-sizing:border-box;
   position:absolute;
-  left:0;
+  right:10%;
+
   width:100%;
-  text-align:center;
+  text-align:left;
   text-transform:capitalize;
-  font-size:18px;
+  font-size:33px;
   font-weight:bold;
   font-family: 'Oswald', sans-serif;
   font-weight:normal!important;
-  top:40%;
+  top:5%;
   color:white;
   opacity:0;
   filter:alpha(opacity=0);/*For older IE*/
   transform:translateY(-20px);
   transition:all .3s;
 }
-#rig li:hover .rig-text {
-  transform:translateY(0px);
+.rig-text-song {
+  display:block;
+  padding:0 60px;
+  box-sizing:border-box;
+  position:absolute;
+  right:10%;
+
+  width:100%;
+  text-align:left;
+  text-transform:capitalize;
+  font-size:33px;
+  font-weight:bold;
+  font-family: 'Oswald', sans-serif;
+  font-weight:normal!important;
+  top:20%;
+  color:white;
+  opacity:0;
+  filter:alpha(opacity=0);/*For older IE*/
+  transform:translateY(-20px);
+  transition:all .5s;
+}
+.rig-text-logo-play {
+  display:block;
+  padding:0 60px;
+  box-sizing:border-box;
+  position:absolute;
+  right:10%;
+
+  width:100%;
+  text-align:left;
+  text-transform:capitalize;
+  font-size:33px;
+  font-weight:bold;
+  font-family: 'Oswald', sans-serif;
+  font-weight:normal!important;
+  top:70%;
+  color:white;
+  opacity:0;
+  filter:alpha(opacity=0);
+  transform:translateY(-20px);/* sending font backward */
+  transition:all .7s;
+}
+.rig-text-logo-download{
+  display:block;
+  padding:0 60px;
+  box-sizing:border-box;
+  position:absolute;
+
+
+  width:100%;
+  text-align:right;
+  text-transform:capitalize;
+  font-size:33px;
+  font-weight:bold;
+  font-family: 'Oswald', sans-serif;
+  font-weight:normal!important;
+  top:70%;
+  color:white;
+  opacity:0;
+  filter:alpha(opacity=0);
+  transform:translateY(-20px);/* sending font backward */
+  transition:all .7s;
+}
+
+#rig li:hover .rig-text-artist{
+  transform:translateY(0px); /* bringing it above when needed */
+  opacity:0.9;
+}
+#rig li:hover .rig-text-song{
+  transform:translateY(0px); /* bringing it above when needed */
+  opacity:0.9;
+}
+#rig li:hover .rig-text-logo-download{
+  transform:translateY(0px); /* bringing it above when needed */
+  opacity:0.9;
+}
+#rig li:hover .rig-text-logo-play{
+  transform:translateY(0px); /* bringing it above when needed */
   opacity:0.9;
 }
 
-@media (max-width: 9000px) {
+@media (max-width: 9000px) { /*responsive design trick */
   #rig li {
       width:25%;
   }
