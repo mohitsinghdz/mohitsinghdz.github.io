@@ -1,7 +1,11 @@
-function play(){
-     var audio = document.getElementById("audio");
+function playa(){
+     var audio = document.getElementById("audioa");
      audio.play();
                }
+function play2(){
+            var audio = document.getElementById("audiob");
+              audio.play();
+                      }
 
 //fuckin jquery
 function download(filename, text) {
