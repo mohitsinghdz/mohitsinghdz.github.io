@@ -10,7 +10,7 @@ body {
   font-family:'Raleway';
 }
 .glyphicon {
-    font-size: 80px;
+    font-size: 60px;
 
 }
 #rig {
@@ -19,7 +19,7 @@ body {
   padding:0;
   font-size:0; /* bitches remember to change it back to normal font size if have captions */
   list-style:none;
-  background-color: rgba(0,0,0,0); 
+  background-color: rgba(0,0,0,0);
 }
 #rig li {
   display: inline-block;
@@ -106,7 +106,7 @@ body {
   width:100%;
   text-align:left;
   text-transform:capitalize;
-  font-size:33px;
+  font-size:30px;
   font-weight:bold;
   font-family: 'Oswald', sans-serif;
   font-weight:normal!important;
@@ -127,9 +127,8 @@ body {
   width:100%;
   text-align:left;
   text-transform:capitalize;
-  font-size:33px;
-  font-weight:bold;
-  font-family: 'Oswald', sans-serif;
+
+
   font-weight:normal!important;
   top:70%;
   color:white;
@@ -189,13 +188,13 @@ body {
   }
 }
 
-@media (max-width: 1900px) {
+@media (max-width: 1500px) {
     #rig li {
       width:33.33%;
   }
 }
 
-@media (max-width: 1050px) {
+@media (max-width: 950px) {
   #rig li {
       width:50%;
   }
