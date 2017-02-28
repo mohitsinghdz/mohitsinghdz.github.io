@@ -109,7 +109,8 @@ body {
   font-size:30px;
   font-weight:bold;
   font-family: 'Oswald', sans-serif;
-  font-weight:normal!important;
+
+    font-weight:normal!important;
   top:20%;
   color:white;
   opacity:0;
@@ -139,6 +140,7 @@ body {
 }
 .largeheader{
   font-size: 30px;
+    color:white;
 }
 .smallheader{
   font-size: 22px;
