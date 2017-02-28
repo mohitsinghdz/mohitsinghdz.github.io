@@ -92,9 +92,7 @@ body {
   top:5%;
   color:white;
   opacity:0;
-  filter:alpha(opacity=0);/*For older IE*/
-  transform:translateY(-20px);
-  transition:all .3s;
+  filter:alpha(opacity=0);/*For older IE*/  transform:translateY(-20px);  transition:all .3s;
 }
 .rig-text-song {
   display:block;
@@ -113,8 +111,7 @@ body {
     font-weight:normal!important;
   top:20%;
   color:white;
-  opacity:0;
-  filter:alpha(opacity=0);/*For older IE*/
+  opacity:0;  filter:alpha(opacity=0);/*For older IE*/
   transform:translateY(-20px);
   transition:all .5s;
 }
@@ -141,6 +138,7 @@ body {
 .largeheader{
   font-size: 30px;
     color:white;
+    
 }
 .smallheader{
   font-size: 22px;
