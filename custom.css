@@ -4,6 +4,16 @@ font-family: 'Poiret One', cursive;
 font-size: 120px;
 
 }
+.images{
+  display: block;
+  height:600px;
+  width:auto;
+  float: right;
+  margin-right:20%;
+
+  position:static;
+
+}
 .panel{
   background-color:#ff0000;
 }
@@ -11,7 +21,6 @@ body{
   text-align: center;
 
 }
-a{display: inline-block;}
 .site__title {
   color: #fd5626;
 background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
@@ -66,11 +75,11 @@ background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
   border-radius: 20px;
 }
 
-  .butt:focus, .input:focus {
+/*  .butt:focus, .input:focus {
     outline: none;
     border-radius: 20px;
   }
-
+*/
 .butt{
   border-radius: 4px;
   border: 2px solid #f35626;
@@ -85,6 +94,17 @@ background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
 
 
   -webkit-animation: hue 20s infinite linear;
+}
+.download{
+  border-radius: 16px;
+  border: 2px solid ;
+  background-color: transparent !important;
+  text-align: left !important;
+  margin-left:10px;
+
+/*  border-color:-webkit-linear-gradient(92deg,#f35626,#feab3a);
+    -webkit-animation: hue 20s infinite linear;
+  */
 }
 .buttnew{border-radius: 4px;
 border: 2px solid #f35626;
