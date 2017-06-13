@@ -4,6 +4,11 @@ font-family: 'Poiret One', cursive;
 font-size: 120px;
 
 }
+h3{
+  font-size:30px;
+  font-weight:bold;
+
+}
 .images{
   display: block;
   height:600px;
@@ -14,11 +19,6 @@ font-size: 120px;
   position:static;
 
 }
-h3{
-  font-size:30px;
-  font-weight:bold;
-
-}
 .panel{
   background-color:#ff0000;
 }
@@ -27,12 +27,12 @@ body{
 
 }
 .site__title {
-  color: #fd5626;
-background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);
+  color: #333;
+/*background-image: -webkit-linear-gradient(92deg,#f35626,#feab3a);*/
  -webkit-background-clip: text;
 /*  -webkit-text-fill-color: transparent;  */
-  -webkit-animation: hue 20s infinite linear;
-  margin-bottom:10px;
+ /* -webkit-animation: hue 20s infinite linear;
+  margin-bottom:10px; */
 }
 .site__border {
   color: #fd5626;
