@@ -14,6 +14,11 @@ font-size: 120px;
   position:static;
 
 }
+h3{
+  font-size:30px;
+  font-weight:bold;
+
+}
 .panel{
   background-color:#ff0000;
 }
